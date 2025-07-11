@@ -15,7 +15,7 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]);
     int target;
 
-    // Ask user for input
+  
     printf("Enter the element to search: ");
     scanf("%d", &target);
 
