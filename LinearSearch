@@ -13,7 +13,11 @@ int linearSearch(int arr[], int size, int target, int index) {
 int main() {
     int arr[] = {4, 8, 9, 12, 15, 19, 24, 29, 30};
     int size = sizeof(arr) / sizeof(arr[0]);
-    int target = 9;
+    int target;
+
+    // Ask user for input
+    printf("Enter the element to search: ");
+    scanf("%d", &target);
 
     int result = linearSearch(arr, size, target, 0);
 
